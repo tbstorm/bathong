@@ -277,7 +277,7 @@ class _SignUpScreenState extends State<SignUpScreen> {
                 Text("Remember Me",style: TextStyle(color: Colors.black),),
               ],
             ),
-            RaisedButton(
+            ElevatedButton(
               onPressed: (){
                 if (usernameController.text.length < 3){
                   showDialog(
